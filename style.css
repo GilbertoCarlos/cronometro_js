@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@font-face {
+    font-family: DS-Digital;
+    src: url('fonts/DS-DIGII.TTF');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    min-height: 320px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.timer{
+    font-family: DS-Digital;
+    font-size: 70px;
+    min-width: 250px;
+    
+}
+header{
+    position: absolute;
+    top: 2rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+    display: block;
+}
+.buttons button{
+    padding: 4px 5px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.start{
+    background: green;
+    border: 1px solid black;
+}
+.pausar{
+    background: yellow;
+    border: 1px solid black;
+}
+
+.stop{
+    background: red;
+    border: 1px solid black;
+}
